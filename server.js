@@ -117,7 +117,7 @@ app.get("/api/posts/:id", (req, res) => {
         ...forsend,
         comment: [...data.rows]
       };
-      //ส่ง allcomment กลับไป
+      //ส่ง allcomment กลับไป 555asd5asd5as5d5asd5a5sd
       res.send(allcomment);
     }
   });
